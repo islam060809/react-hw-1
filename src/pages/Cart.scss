@@ -1,0 +1,98 @@
+.cart {
+    width: 1110px;
+    margin: auto;
+    margin-top: 150px;
+
+    h2 {
+        font-family: Raleway;
+        font-size: 55px;
+        font-weight: 500;
+        line-height: 60.5px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+
+    .inf {
+        display: flex;
+
+        p {
+            font-family: Raleway;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0.02em;
+            text-align: left;
+        }
+
+        .inf1 {
+            margin-right: 416px;
+        }
+
+        .inf2 {
+            margin-right: 139px;
+        }
+
+        .inf3 {
+            margin-right: 167px;
+        }
+    }
+
+    .products {
+        .product {
+            display: flex;
+            align-items: center;
+margin-bottom: 15px;
+            .iks {
+                width: 20px;
+                height: 20px;
+                border: 1px;
+                margin-right: 20px;
+            }
+
+            .img {
+                width: 137px;
+                height: 179px;
+                border: 1px solid black;
+                margin-right: 40px;
+            }
+
+            h2 {
+                width: 180px;
+                font-family: Raleway;
+                font-size: 17px;
+                font-weight: 500;
+                line-height: 23.8px;
+                letter-spacing: 0.02em;
+                margin-right: 75px;
+            }
+
+            .price {
+                font-family: Raleway;
+                font-size: 17px;
+                font-weight: 500;
+                line-height: 23.8px;
+                letter-spacing: 0.02em;
+                margin-right: 160px;
+            }
+
+            .count {
+                width: 47px;
+                height: 47px;
+                border: 1px solid #AFAFAF;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 200px;
+
+                p {
+                    font-family: Raleway;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0.02em;
+                }
+            }
+
+        }
+    }
+}

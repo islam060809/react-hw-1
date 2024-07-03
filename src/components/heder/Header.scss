@@ -1,0 +1,81 @@
+@import "./../../style//var.scss";
+@import "./../../style//mixins.scss";
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1600px;
+    margin-top: 51px;
+    margin: auto;
+
+    // border: 1px solid red;
+    .gg{
+        display: flex;
+       .per{
+        color: black;
+    } 
+    }
+    
+    button {
+        background-color: $main-color;
+        color: white;
+        border: none;
+        padding: 7px 10px;
+        @include set-font-size(12px, 100)
+    }
+
+    ul {
+        display: flex;
+        gap: 45px;
+        margin-left: 146px;
+        margin-right: 170px;
+
+        .dir {
+            color: black;
+            font-family: Raleway;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+            list-style-type: none;
+            @include set-font-size(20px, 900)
+        }
+
+        .dir:hover {
+            color: #6E9C9F;
+        }
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+
+        img {
+            width: 25px;
+            height: 25px;
+        }
+
+        p {
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 18.78px;
+            letter-spacing: 0.1em;
+        }
+    }
+
+    .number {
+        font-family: Raleway;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        margin-left: 9px;
+        margin-right: 67px;
+        width: 128px;
+        height: 21px;
+    }
+}

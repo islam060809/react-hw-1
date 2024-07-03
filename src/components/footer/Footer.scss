@@ -1,0 +1,82 @@
+.bag {
+    background: #F1EADC;
+    min-height: 363px;
+    .footer {
+        width: 1200px;
+        min-height: 363px;
+        background: #F1EADC;
+        margin: auto;
+        margin-top: 130px;
+        padding-left: 45px;
+        padding-top: 101px;
+        display: flex;
+        .box1 {
+            display: block;
+            margin-right: 81px;
+
+            .logo {
+                display: flex;
+                align-items: center;
+                gap: 11px;
+                margin-bottom: 70px;
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+
+                p {
+                    font-family: Raleway;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 18.78px;
+                    letter-spacing: 0.1em;
+                }
+            }
+
+            .b1-text {
+                p {
+                    font-family: Raleway;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 18.2px;
+                    letter-spacing: 0.02em;
+                }
+            }
+        }
+
+        .box2 {
+            margin-right: 267px;
+
+            .title-comp {
+                display: flex;
+                gap: 45px;
+                margin-bottom: 39px;
+            }
+
+            .title-comp p:hover {
+                color: #6E9C9F;
+            }
+
+            .clouses {
+                // text-align: left;
+                width: 70px;
+                height: 102px;
+                margin-left: 107px;
+            }
+        }
+        .box3{
+            text-align: right;
+            display: block;
+            .infa{
+                margin-bottom: 30px;
+            }
+            .icons{
+                display: flex;
+                justify-content: right;
+                gap: 12px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
